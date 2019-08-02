@@ -9,7 +9,7 @@ return new_array
 end 
 
 
-def reduce(source_array, starting_point)
+def reduce(source_array, starting_point = nil)
  i = 0 
  result = starting_point
     while i < source_array.length do
